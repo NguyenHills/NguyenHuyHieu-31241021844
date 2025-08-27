@@ -53,6 +53,7 @@ while True:
     if cont == "n" or cont == "N" or account_balance <= 0:
         print(f"Your current account balance is : {account_balance}$")
         print(f"Amount of win round: {win}")
+        print(f"Amount of lose round: {lose}")
         print("Thank you for playing!")
         break
 
